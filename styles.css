@@ -22,9 +22,9 @@
   margin-bottom: 10px;
   font-weight: bold;
   margin-left: 5px;
-  background-color: #b80064; /* Color de fondo más oscuro */
-  padding: 8px 12px; /* Ajusta el relleno según sea necesario */
-  border-radius: 20px; /* Agrega un borde redondeado */
+  background-color: #b80064;
+  padding: 8px 12px;
+  border-radius: 20px;
 }
 
 .main-section {
@@ -49,12 +49,16 @@
   margin-bottom: 10px;
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (max-width: 500px) {
   body {
     width: 100%;
     height: 100%;
-    max-width: 250px;
-    max-height: 150px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
   }
 
   #navbar header {
@@ -65,9 +69,7 @@
   .nav-link {
     font-size: 20px;
     margin-bottom: 5px;
-    margin-left: 3px;
-    background-color: #93004b; /* Color de fondo más oscuro en pantallas pequeñas */
-    padding: 6px 10px; /* Ajusta el relleno en pantallas pequeñas */
+    margin-left: 0;
   }
 
   .main-section header {

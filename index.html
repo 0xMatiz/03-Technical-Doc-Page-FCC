@@ -4,63 +4,73 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
-  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Polkadot - Technical Documentation</title>
 </head>
 <body>
   <nav id="navbar">
-    <header>Topic of Technical Documentation</header>
-    <a class="nav-link" href="#section_one">Section One</a>
-    <a class="nav-link" href="#section_two">Section Two</a>
-    <a class="nav-link" href="#section_three">Section Three</a>
-    <a class="nav-link" href="#section_four">Section Four</a>
-    <a class="nav-link" href="#section_five">Section Five</a>
+    <header class="translate-header">Polkadot - Technical Documentation</header>
+    <a class="nav-link" href="#section_one">Introduction</a>
+    <a class="nav-link" href="#section_two">Getting Started</a>
+    <a class="nav-link" href="#section_three">Polkadot Architecture</a>
+    <a class="nav-link" href="#section_four">Consensus Mechanisms</a>
+    <a class="nav-link" href="#section_five">Tools and Resources</a>
   </nav>
+  <div>
+    <button id="lang-en">English</button>
+    <button id="lang-es">Español</button>
+  </div>  
   <main id="main-doc">
-    <section class="main-section" id="section_one">
-      <header>Section One</header>
-      <p><code>Your content here</code></p>
-      <p><code>Your content here</code></p>
+    <section class="main-section translate-section" id="section_one">
+      <header>Introduction</header>
+      <p><code>Polkadot</code> is a scalable multi-chain platform that enables interoperability between different blockchains. It provides a framework for creating and connecting multiple specialized blockchains, known as parachains, to a single unified network.</p>
+      <p><code>With Polkadot, developers can build their own custom blockchains tailored to specific use cases and requirements, while benefiting from the security and scalability provided by the Polkadot network.</code></p>
       <ul>
-        <li>Your item</li>
-        <li>Your item</li>
+        <li>Advantages of Polkadot: Explore the key benefits of utilizing Polkadot, such as enhanced scalability, interoperability, and flexibility.</li>
+        <li>Key Concepts and Terminology: Understand the fundamental concepts and terminology associated with Polkadot, including parachains, relay chain, validators, and more.</li>
       </ul>
     </section>
-    <section class="main-section" id="section_two">
-      <header>Section Two</header>
-      <p><code>Your content here</code></p>
-      <p><code>Your content here</code></p>
+    <section class="main-section translate-section" id="section_two">
+      <header>Getting Started</header>
+      <p><code>In this section, you will learn how to get started with Polkadot, including setting up a development environment, installing the necessary tools, and deploying your first parachain.</code></p>
       <ul>
-        <li>Your item</li>
-        <li>Your item</li>
+        <li>Installation and Setup: Step-by-step instructions to install and configure the required tools and dependencies for Polkadot development.</li>
+        <li>Creating Your First Parachain: A comprehensive guide on creating and deploying your own parachain on the Polkadot network.</li>
+        <li>Interacting with Polkadot API: Learn how to interact with the Polkadot API, including sending transactions, querying data, and accessing network information.</li>
       </ul>
     </section>
-    <section class="main-section" id="section_three">
-      <header>Section Three</header>
-      <p><code>Your content here</code></p>
-      <p><code>Your content here</code></p>
+    <section class="main-section translate-section" id="section_three">
+      <header>Polkadot Architecture</header>
+      <p><code>Polkadot employs a unique architecture that enables the interoperability of parachains, shared security, and scalable data transfer across the network.</code></p>
       <ul>
-        <li>Your item</li>
-        <li>Your item</li>
+        <li>Overview of Polkadot Architecture: Gain an in-depth understanding of the underlying architecture of Polkadot and its components.</li>
+        <li>Parachain Communication: Explore how parachains communicate with each other and the relay chain to enable cross-chain interoperability.</li>
+        <li>Relay Chain and Validators: Learn about the role of the relay chain and validators in securing the Polkadot network and validating transactions.</li>
       </ul>
     </section>
-    <section class="main-section" id="section_four">
-      <header>Section Four</header>
-      <p><code>Your content here</code></p>
-      <p><code>Your content here</code></p>
+    <section class="main-section translate-section" id="section_four">
+      <header>Consensus Mechanisms</header>
+      <p><code>Polkadot utilizes a hybrid consensus mechanism that combines the strengths of different algorithms to achieve security, scalability, and flexibility.</code></p>
       <ul>
-        <li>Your item</li>
-        <li>Your item</li>
+        <li>Proof of Stake (PoS) in Polkadot: Understand how the proof-of-stake consensus algorithm is employed in Polkadot to secure the network and incentivize participation.</li>
+        <li>Babe and Grandpa Consensus Algorithms: Explore the role of the Babe and Grandpa consensus algorithms in block production and finalization within Polkadot.</li>
+        <li>Nominated Proof of Stake (NPoS): Learn about the Nominated Proof of Stake mechanism and its significance in the governance of the Polkadot network.</li>
       </ul>
     </section>
-    <section class="main-section" id="section_five">
-      <header>Section Five</header>
-      <p><code>Your content here</code></p>
-      <p><code>Your content here</code></p>
+    <section class="main-section translate-section" id="section_five">
+      <header>Tools and Resources</header>
+      <p><code>Explore the tools and resources available for developers working with Polkadot, including SDKs, developer documentation, community forums, and more.</code></p>
       <ul>
-        <li>Your item</li>
-        <li>Your item</li>
+        <li>Polkadot Development Tools: Discover a range of development tools, frameworks, and libraries that facilitate Polkadot application development.</li>
+        <li>API Reference and Documentation: Access comprehensive API reference documentation to assist in building applications on top of Polkadot.</li>
+        <li>Community and Support: Engage with the Polkadot community, participate in forums, and access support channels to seek assistance and collaborate with other developers.</li>
       </ul>
     </section>
   </main>
+  <footer>
+    <p>This page is created for personal and educational purposes related to front-end programming learning.</p>
+  </footer>
+  <script src="./script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
